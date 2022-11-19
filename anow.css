@@ -43,6 +43,11 @@ button {
     font-size: 15px;
 }
 
+.huge-title {
+    font-size: 150px;
+    color: var(--gray);
+}
+
 .title {
     font-size: 40px;
 }
@@ -232,11 +237,6 @@ button {
     display: flex;
     flex-direction: column;
     margin-right: 50px;
-}
-
-.about__info-title {
-    font-size: 150px;
-    color: var(--gray);
 }
 
 .about__quote {
