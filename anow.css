@@ -217,6 +217,7 @@ button {
     .header__title {
         text-align: left;
     }
+
 }
 
 /* about us */
@@ -387,6 +388,18 @@ button {
 
 .slider__text-development p{
     margin-right: 20px;
+}
+
+@media screen and (max-width: 993) {
+    .skills {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skills__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 /* team */
