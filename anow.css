@@ -462,12 +462,6 @@ button {
     background-color: #111111;
 }
 
-.footer__wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .footer__main {
     width: 1400px;
     max-width: 1400px;
