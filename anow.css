@@ -151,8 +151,35 @@ button {
     background-position: center;
     background-size: cover;
     flex-direction: column;
+    position: relative;
 }
 
+.header__picture-circle {
+    position: absolute;
+    right: 50px;
+    top: 20px;
+    margin-right: 100px;
+}
+
+.header__picture-halfcircle {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.header__picture-cross {
+    position: absolute;
+    bottom: 10px;
+    left: 40px;
+    margin-bottom: 200px;
+    margin-left: 100px;
+}
+
+.header__picture-bottomcircle {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
 
 .header__title {
     color: var(--white);
