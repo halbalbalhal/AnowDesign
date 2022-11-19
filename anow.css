@@ -4,7 +4,7 @@
     --white: #FFFFFF;
     --light-black: #4F4F4F;;
     --dark-black: #222222;
-    --gray: #F7F7F7;
+    --gray: #EEEE;
     --orange: #FD8558;
     --litte-text: #999999;
 }
@@ -333,7 +333,7 @@ button {
 
 .slider {
     display: flex;
-    background-color: var(--litte-text);
+    background-color: var(--gray);
     width: 550px;
     height: 10px;
 }
@@ -351,6 +351,15 @@ button {
 
 .sliders__text-design p{
     margin-right: 100px;
+}
+
+/* для 3-го слайдера */
+.slider__gradient-development {
+    width: 95%;
+}
+
+.slider__text-development p{
+    margin-right: 20px;
 }
 
 /* team */
