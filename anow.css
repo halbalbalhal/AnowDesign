@@ -385,6 +385,10 @@ button {
     height: 126px;
 }
 
+.little__block-difference {
+    background-image: url("images/differences.svg");
+}
+
 /* skills of team */
 .skills {
     margin-top: 150px;
