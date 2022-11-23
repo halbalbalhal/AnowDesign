@@ -209,6 +209,11 @@ button {
     font-size: 15px;
 }
 
+.header__button:hover {
+    background-color: var(--orange);
+    transition: all 0.3s ease-out;
+}
+
 @media screen and (max-width: 993px) {
     .header__buttons {
         display: flex;
@@ -313,6 +318,71 @@ button {
 .benefits__img {
     width: 44px;
     height: 60px;
+}
+
+/* portfolio */
+.portfolio {
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.little__portfolio {
+    display: flex;
+    flex-direction: column;
+}
+
+.little__block {
+    width: 360px;
+    height: 360px;
+    display: flex;
+    background-image: url("images/bag.svg");
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.little__block-stylish {
+    background-image: url("images/waves.svg");
+}
+
+.little__block-text {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.85);
+    align-items: center;
+    justify-content: space-around;
+    width: 320px;
+    height: 126px;
+    margin-bottom: 40px;
+}
+
+.little__block-form {
+    width: 46px;
+    height: 46px;
+}
+
+.huge__block {
+    display: flex;
+    width: 720px;
+    height: 720px;
+    background-image: url("images/nonebackground.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.huge__block-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.85);
+    margin-bottom: 40px;
+    width: 680px;
+    height: 126px;
 }
 
 /* skills of team */
