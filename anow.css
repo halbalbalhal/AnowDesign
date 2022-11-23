@@ -360,6 +360,7 @@ button {
 .little__block-form {
     width: 46px;
     height: 46px;
+    cursor: pointer;
 }
 
 .huge__block {
