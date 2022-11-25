@@ -7,6 +7,7 @@
     --gray: #EEEE;
     --orange: #FD8558;
     --litte-text: #999999;
+    --purple: #3A0F73;
 }
 
 *, *::after, *::before {
@@ -43,8 +44,8 @@ button {
     font-size: 15px;
 }
 
-.huge-title {
-    font-size: 150px;
+.huge__title {
+    font-size: 200px;
     color: var(--gray);
 }
 
@@ -320,6 +321,64 @@ button {
     height: 60px;
 }
 
+/* separator */
+.separator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.separator__wrapper {
+    display: flex;
+    width: 1400px;
+    max-width: 1400px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.separator__line {
+    width: 600px;
+    background-color: var(--litte-text);
+    height: 2px;
+}
+
+/* works */
+.works {
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: inherit;
+}
+
+.works__wrapper {
+    display: flex;
+    width: 1400px;
+    max-width: 1400px;
+    justify-content: center;
+}
+
+.works__block {
+    width: 1400px;
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.works__text {
+    max-width: 400px;
+}
+
+.works__title {
+    position: absolute;
+    right: -40px;
+    margin-top: 90px;
+    margin-right: 300px;
+}
+
 /* portfolio */
 .portfolio {
     margin-top: 200px;
@@ -564,6 +623,39 @@ button {
     .team__members {
         display: none;
     }
+}
+
+/* testimonials */
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--purple);
+    height: 760px;
+    margin-top: 130px;
+}
+
+.testimonials p {
+    text-align: center;
+    max-width: 800px;
+    color: var(--white);
+}
+
+.testimonials__title {
+    color: rgba(170, 170, 170, 0.1);
+}
+
+.testimonials__ceo {
+    display: flex;
+    margin-top: 70px;
+}
+
+.ceo__text {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 10px;
 }
 
 /* news */
