@@ -426,10 +426,7 @@ button {
     display: flex;
     width: 720px;
     height: 720px;
-    background-image: url("images/nonebackground.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-color: var(--gray);
     position: relative;
     align-items: flex-end;
     justify-content: center;
@@ -443,6 +440,7 @@ button {
     margin-bottom: 40px;
     width: 680px;
     height: 126px;
+    background-image: url("images/pudge.jpg");
 }
 
 .little__block-difference {
