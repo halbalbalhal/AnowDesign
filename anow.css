@@ -129,11 +129,11 @@ button {
     width: 100%;
     height: 3px;
     border-radius: 2px;
-    color: var(--dark-black);
-    background-color: orange;
+    color: var(--white);
+    background-color: var(--orange);
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
     .nav__burger {
         display: flex;
     }
@@ -145,7 +145,7 @@ button {
     .nav__wrapper {
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
         padding: 0px 500px;
     }
 }
@@ -325,6 +325,15 @@ button {
     height: 60px;
 }
 
+@media screen  and (max-width: 1800px) {
+    .benefits__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
 /* separator */
 .separator {
     display: flex;
@@ -383,8 +392,13 @@ button {
     margin-right: 300px;
 }
 
-@media screen and (max-width: 993px) {
-    .works {
+@media screen and (max-width: 1500px) {
+    .works__wrapper {
+        width: 700px;
+        max-width: 700px;
+    }
+
+    .works__title {
         display: none;
     }
 }
@@ -455,6 +469,12 @@ button {
 
 .little__block-difference {
     background-image: url("images/differences.svg");
+}
+
+@media screen and (max-width: 1500px) {
+    .portfolio {
+        display: none;
+    }
 }
 
 /* skills of team */
@@ -535,6 +555,23 @@ button {
 
 .slider__text-development p{
     margin-right: 20px;
+}
+
+@media screen and (max-width: 1600px) {
+    .skills__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .skills__info span {
+        text-align: center;
+    }
+
+    .skills__sliders {
+        margin-top: 50px;
+    }
 }
 
 /* team */
@@ -705,6 +742,13 @@ button {
     max-width: 350px;
 }
 
+@media screen and (max-width: 1500px) {
+    .news__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 /* registration */
 .registration {
     width: 100%;
@@ -751,6 +795,21 @@ button {
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1800px) {
+    .registration__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .registration button {
+        margin-top: 50px;
+    }
+
+    .registration__inputs {
+        margin-top: 50px;
+    }
 }
 
 /* footer */
@@ -812,12 +871,15 @@ button {
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1500px) {
+    .footer__block {
+        display: none;
+    }
+
     .footer__main {
         display: flex;
-        flex-direction: column;
-        max-width: 600px;
         align-items: center;
         justify-content: center;
+        text-align: center;
     }
 }
