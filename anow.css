@@ -91,7 +91,7 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 500px;
+    margin-right: 300px;
 }
 
 .nav__title {
@@ -136,17 +136,17 @@ button {
 @media screen and (max-width: 1300px) {
     .nav__burger {
         display: flex;
+        margin-left: 500px;
     }
 
     .nav__link {
         display: none;
     }
 
-    .nav__wrapper {
+    .nav {
         display: flex;
+        justify-content: space-between;
         align-items: center;
-        justify-content: center;
-        padding: 0px 500px;
     }
 }
 
@@ -232,6 +232,22 @@ button {
 
     .header__title {
         text-align: left;
+    }
+
+    .header__picture-circle {
+        display: none;
+    }
+
+    .header__picture-halfcircle {
+        display: none;
+    }
+
+    .header__picture-cross {
+        display: none;
+    }
+
+    .header__picture-bottomcircle {
+        display: none;
     }
 
 }
