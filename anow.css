@@ -203,6 +203,15 @@ button {
     font-size: 70px;
     text-align: center;
     max-width: 700px;
+    animation: 2s title-appear ease;
+}
+
+@keyframes title-appear{
+    from {
+        opacity: 0;
+    } to{
+        opacity: 1;
+    }
 }
 
 .header__buttons {
