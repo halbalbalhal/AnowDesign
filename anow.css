@@ -92,6 +92,7 @@ button {
     justify-content: space-between;
     align-items: center;
     margin-right: 300px;
+    animation: 0.5s appear-animation ease;
 }
 
 .nav__title {
@@ -203,10 +204,10 @@ button {
     font-size: 70px;
     text-align: center;
     max-width: 700px;
-    animation: 2s title-appear ease;
+    animation: 0.5s appear-animation ease;
 }
 
-@keyframes title-appear{
+@keyframes appear-animation{
     from {
         opacity: 0;
     } to{
@@ -220,6 +221,14 @@ button {
     max-width: 350px;
     display: flex;
     justify-content: space-between;
+}
+
+.button__animation-faster {
+    animation: 2s appear-animation ease;
+}
+
+.button__animation-slowler {
+    animation: 2s appear-animation ease;
 }
 
 .header__button {
