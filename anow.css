@@ -543,6 +543,12 @@ button {
     justify-content: space-between;
 }
 
+@media screen and (max-width: 450px) {
+    .skills {
+        display: none;
+    }
+}
+
 .skills__info {
     display: flex;
     flex-direction: column;
@@ -707,6 +713,11 @@ button {
         align-items: center;
         justify-content: center;
     }
+
+    .team__title {
+        width: 350px;
+        text-align: center;
+    }
 }
 
 /* testimonials */
@@ -776,7 +787,7 @@ button {
 .news__block-filters {
     display: flex;
     justify-content: space-between;
-    width: 300px;
+    width: 400px;
     max-width: 250px;
     padding: 20px 0px;
 }
@@ -795,6 +806,12 @@ button {
     .news__wrapper {
         display: flex;
         flex-direction: column;
+    }
+    .news__link {
+        margin-left: 15px;
+    }
+    .news__title {
+        margin-left: 20px;
     }
 }
 
@@ -874,6 +891,12 @@ button {
 
     .input__big {
         width: 400px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .input__big {
+        width: 350px;
     }
 }
 
