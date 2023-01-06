@@ -20,9 +20,6 @@
     background: none;
     color: var(--dark-black);
     border: none;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 ::-webkit-input-placeholder {
