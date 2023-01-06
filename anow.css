@@ -20,7 +20,6 @@
     background: none;
     color: var(--dark-black);
     border: none;
-    overflow-x: hidden;
 }
 
 ::-webkit-input-placeholder {
@@ -397,6 +396,12 @@ button {
     width: 600px;
     background-color: var(--litte-text);
     height: 2px;
+}
+
+@media screen and (max-width: 500px) {
+    .separator__line {
+        width: 50px;
+    }
 }
 
 /* works */
