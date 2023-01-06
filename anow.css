@@ -20,7 +20,7 @@
     background: none;
     color: var(--dark-black);
     border: none;
-    overflow-x: hidden;
+    overflow: hidden;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -36,11 +36,6 @@
     color: var(--white);
 }
 
-@media (max-width: 600px) {
-    body, html {
-        overflow-x: hidden;
-      }
-    }
 
 /* общие классы */
 button {
