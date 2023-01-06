@@ -595,10 +595,11 @@ button {
 
 @media screen and (max-width: 1600px) {
     .skills__wrapper {
-        display: none;
+        display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        width: 400px;
     }
 
     .skills__info span {
@@ -614,7 +615,7 @@ button {
 /* team */
 .team {
     margin-top: 150px;
-    display: none;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -795,10 +796,6 @@ button {
     }
     .news__title {
         margin-left: 20px;
-    }
-
-    .news img {
-        display: none;
     }
 }
 
