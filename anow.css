@@ -703,7 +703,7 @@ button {
 
 @media screen and (max-width: 500px) {
     .team__members {
-        width: 350px;
+        width: 400px;
     }
 }
 
