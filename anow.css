@@ -399,8 +399,8 @@ button {
 }
 
 @media screen and (max-width: 500px) {
-    .separator {
-        display: none;
+    .separator__line {
+        width: 250px;
     }
 }
 
