@@ -375,35 +375,6 @@ button {
     }
 }
 
-/* separator */
-.separator {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    margin-top: 70px;
-}
-
-.separator__wrapper {
-    display: flex;
-    width: 1400px;
-    max-width: 1400px;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.separator__line {
-    width: 600px;
-    background-color: var(--litte-text);
-    height: 2px;
-}
-
-@media screen and (max-width: 500px) {
-    .separator__line {
-        width: 50px;
-    }
-}
-
 /* works */
 .works {
     margin-top: 200px;
@@ -411,7 +382,6 @@ button {
     align-items: center;
     justify-content: center;
     width: 100%;
-    position: inherit;
 }
 
 .works__wrapper {
