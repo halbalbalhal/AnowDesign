@@ -21,6 +21,9 @@
     color: var(--dark-black);
     border: none;
     overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 ::-webkit-input-placeholder {
