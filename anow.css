@@ -401,6 +401,12 @@ button {
     height: 2px;
 }
 
+@media screen and (max-width: 500px) {
+    .separator {
+        display: none;
+    }
+}
+
 /* works */
 .works {
     margin-top: 200px;
