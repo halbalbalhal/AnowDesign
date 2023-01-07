@@ -386,6 +386,8 @@ button {
     align-items: center;
     justify-content: center;
     width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .works__wrapper {
@@ -702,13 +704,6 @@ button {
         text-align: center;
     }
 }
-
-@media screen and (max-width: 500px) {
-    .team__members {
-        width: 500px;
-    }
-}
-
 
 /* testimonials */
 .testimonials {
