@@ -518,7 +518,7 @@ button {
     justify-content: space-between;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 600px) {
     .skills {
         display: none;
     }
@@ -593,7 +593,7 @@ button {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 400px;
+        width: 800px;
     }
 
     .skills__info span {
@@ -763,8 +763,7 @@ button {
 .news__block-filters {
     display: flex;
     justify-content: space-between;
-    width: 400px;
-    max-width: 250px;
+    width: 300px;
     padding: 20px 0px;
 }
 
@@ -778,7 +777,7 @@ button {
     max-width: 350px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1500px) {
     .news__wrapper {
         display: flex;
         flex-direction: column;
