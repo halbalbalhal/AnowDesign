@@ -21,8 +21,8 @@
     background: none;
     color: var(--dark-black);
     border: none;
-    overflow-x: hidden;
     overflow-y: auto;
+    overflow-x: hidden;
 }
 
 ::-webkit-input-placeholder {
@@ -84,18 +84,16 @@ button {
     width: 100%;
     display: flex;
     margin-top: 10px;
-    padding-left: 100px;
     justify-content: center;
+    align-items: center;
     margin-bottom: 20px;
 }
 
 .nav__wrapper {
     width: 1153px;
-    max-width: 1153px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 300px;
     animation: 0.5s appear-animation ease;
 }
 
@@ -141,31 +139,18 @@ button {
 @media screen and (max-width: 1300px) {
     .nav__burger {
         display: flex;
-        margin-left: 500px;
+    }
+
+    .nav__wrapper {
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
     .nav__link {
         display: none;
+        width: 20px;
     }
 
-    .nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .nav__burger {
-        margin-left: 100px;
-    }
-
-    .nav__wrapper {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 300px;
-    }
 }
 
 /* header */
@@ -801,11 +786,12 @@ button {
         max-width: 400px;
     }
     .news__link {
-        margin-left: 15px;
-    }
-    .news__title {
         margin-left: 20px;
     }
+    .news__title {
+        margin-left: 15px;
+    }
+
 }
 
 /* registration */
