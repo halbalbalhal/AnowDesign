@@ -25,10 +25,6 @@
     overflow-y: auto;
 }
 
-* {
-    outline: solid 1px red;
-   }
-
 ::-webkit-input-placeholder {
     color: var(--litte-text);
     font-size: 14px;
