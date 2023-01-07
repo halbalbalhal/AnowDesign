@@ -159,6 +159,13 @@ button {
     .nav__burger {
         margin-left: 100px;
     }
+
+    .nav__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+    }
 }
 
 /* header */
