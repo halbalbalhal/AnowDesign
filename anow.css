@@ -620,6 +620,8 @@ button {
     align-items: center;
     justify-content: center;
     width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .team__wrapper {
