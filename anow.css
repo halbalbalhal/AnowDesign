@@ -11,7 +11,8 @@
 }
 
 *, *::after, *::before {
-    margin: 0px;
+    padding: 0;
+    margin: 0;
     font-family: 'Poppins';
     font-weight: 400;
     text-decoration: none;
@@ -23,6 +24,10 @@
     overflow-x: hidden;
     overflow-y: auto;
 }
+
+* {
+    outline: solid 1px red;
+   }
 
 ::-webkit-input-placeholder {
     color: var(--litte-text);
@@ -330,10 +335,6 @@ button {
     flex-direction: column;
     margin-left: 60px;
 }
-
-* {
-    outline: solid 1px red;
-   }
 
 @media screen and (max-width: 1200px) {
     .about {
