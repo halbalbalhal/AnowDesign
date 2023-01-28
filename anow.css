@@ -23,6 +23,7 @@
     border: none;
     overflow-y: auto;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 ::-webkit-input-placeholder {
@@ -40,6 +41,10 @@
 button {
     color: var(--white);
     cursor: pointer;
+}
+
+textarea {
+    resize: none;
 }
 
 .button {
