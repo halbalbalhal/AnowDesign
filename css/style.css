@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+:root {
+    --white: #FFFFFF;
+    --light-black: #4F4F4F;
+    --dark-black: #222222;
+    --gray: #EEEE;
+    --orange: #FD8558;
+    --litte-text: #999999;
+    --purple: #3A0F73;
+}
+
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+    font-weight: 400;
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+    background: none;
+    color: var(--dark-black);
+    border: none;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+::-webkit-input-placeholder {
+    color: var(--litte-text);
+    font-size: 14px;
+}
+
+::selection {
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+
+/* общие классы */
+button {
+    color: var(--white);
+    cursor: pointer;
+}
+
+textarea {
+    resize: none;
+}
+
+.button {
+    background-color: var(--orange);
+    width: 154px;
+    height: 60px;
+    font-size: 15px;
+}
+
+.huge__title {
+    font-size: 200px;
+    color: var(--gray);
+}
+
+.title {
+    font-size: 40px;
+}
+
+.little__title {
+    font-size: 24px;
+}
+
+.text {
+    font-size: 15px;
+    color: var(--litte-text);
+}
+
+.input__little {
+    width: 338px;
+    height: 58px;
+    border: 1px solid #EEEEEE;
+}
+
+.input__big {
+    width: 705px;
+    height: 128px;
+    border: 1px solid #EEEEEE;
+}
+

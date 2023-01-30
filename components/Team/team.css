@@ -1,0 +1,90 @@
+/* team */
+.team {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.team__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 1400px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.team__title {
+    margin-bottom: 30px;
+}
+
+.team__members {
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+}
+
+.team__members-block {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 350px;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../images/Anna.svg");
+}
+
+/* выставление разных фонов */
+.member__andy {
+    background-image: url("../../images/Andy.svg");
+}
+
+.member__katy {
+    background-image: url("../../images/Katy.svg");
+}
+
+.member__margo {
+    background-image: url("../../images/margo.svg");
+}
+
+.member__kanye {
+    background-image: url("../../images/Kanye.svg");
+}
+
+.member__marta {
+    background-image: url("../../images/Marta.svg");
+}
+
+.team__members-title {
+    color: var(--white);
+    font-size: 24px;
+}
+
+.team__members-text {
+    color: var(--white);
+    font-size: 14px;
+}
+
+.team__button {
+    margin-top: 80px;
+}
+
+@media screen and (max-width: 1200px) {
+    .team__members {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .team__title {
+        width: 350px;
+        text-align: center;
+    }
+}
