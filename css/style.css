@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
 
+/* pseudo-classes */
 :root {
     --white: #FFFFFF;
     --light-black: #4F4F4F;
@@ -37,7 +38,7 @@
 }
 
 
-/* общие классы */
+/* common classes */
 button {
     color: var(--white);
     cursor: pointer;
@@ -83,4 +84,5 @@ textarea {
     height: 128px;
     border: 1px solid #EEEEEE;
 }
+
 

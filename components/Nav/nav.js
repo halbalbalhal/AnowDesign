@@ -1,5 +1,11 @@
 class Nav {
 
+    showBurger() {
+        burger.render()
+        const a = document.querySelector('.nav__burger')
+        a.style.display = 'none'
+    }
+
     render() {
         const html = `
             <nav class="nav">
@@ -12,16 +18,17 @@ class Nav {
                     <a class="nav__link" href="#">team</a>
                     <a class="nav__link" href="#">news</a>
                     <a class="nav__link" href="#">contact</a>
-                    <a class="nav__link" href="#">other pages</a>
+                    <a class="nav__link" href="#">other pages</a>                    
                 </div>
 
-                <div class="nav__burger">
+                <div class="nav__burger" onclick="nav.showBurger()">
                     <span></span>
                     <span></span>
                     <span></span>
                 </div>
             </div>
             </nav>
+
         `
 
         ROOT_NAV.innerHTML = html
@@ -29,4 +36,6 @@ class Nav {
 }
 
 const nav = new Nav()
+
+
 
