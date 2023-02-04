@@ -3,6 +3,17 @@ class Burger {
         ROOT_BURGER.innerHTML = ''
         const a = document.querySelector('.nav__burger')
         a.style.display = 'flex'
+        window.addEventListener("resize", function() {
+            if (window.matchMedia("(min-width: 1000px)").matches) {
+                a.style.display = 'none'
+            }
+        })
+        window.addEventListener("resize", function() {
+            if (window.matchMedia("(max-width: 1299px)").matches) {
+                a.style.display = 'flex'
+            }
+        })
+
     }
 
     render() {
@@ -25,5 +36,6 @@ class Burger {
         ROOT_BURGER.innerHTML = html
     }
 }
+
 
 const burger= new Burger()
