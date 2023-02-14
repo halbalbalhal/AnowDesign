@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50712c54-41da-4a8c-afdb-de8a1b92f0bf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/Swiper/swiper.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Swiper/swiper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Nav/nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/Nav/nav.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Nav/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Nav/nav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Team/team.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Team/team.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/burgerMenu/burger.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/burgerMenu/burger.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/burgerMenu/burger.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/burgerMenu/burger.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constants/root.js" beforeDir="false" afterPath="$PROJECT_DIR$/constants/root.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Swiper/swiper.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Swiper/swiper.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +61,7 @@
       <workItem from="1676369826589" duration="302000" />
       <workItem from="1676371023746" duration="3707000" />
       <workItem from="1676374804641" duration="593000" />
-      <workItem from="1676375442293" duration="1928000" />
+      <workItem from="1676375442293" duration="2129000" />
     </task>
     <servers />
   </component>

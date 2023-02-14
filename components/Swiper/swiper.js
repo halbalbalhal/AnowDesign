@@ -14,6 +14,8 @@ class Swiper {
             </swiper-container>
         `
         ROOT_SWIPER.innerHTML = html
+
+        
     }
 
 }
