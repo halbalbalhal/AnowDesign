@@ -2,10 +2,12 @@
 .nav {
     width: 100%;
     display: flex;
-    margin-top: 10px;
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
+    position: fixed;
+    background-color: var(--white);
+    z-index: 2;
 }
 
 .nav__wrapper {

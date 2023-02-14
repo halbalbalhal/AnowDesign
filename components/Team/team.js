@@ -3,10 +3,10 @@ class Team {
         const html = `
             <!-- team -->
             <section class="team">
-                <div class="team__wrapper">
+                <div class="team__wrapper">                    
                     <span class="title team__title">Meet Our Awesome Team</span>
-                    <div class="team__members">
-                        <div class="team__members-block">
+                    <div class="team__members ">
+                        <div class="team__members-block ">
                             <span class="team__members-title">Anna Brown</span>
                             <span class="team__members-text">Creative Director</span>
                         </div>
@@ -41,7 +41,9 @@ class Team {
 
                     <button class="button team__button">Start work</button>
                 </div>
+                
             </section>
+            
         `
 
         ROOT_TEAM.innerHTML = html

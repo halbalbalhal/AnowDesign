@@ -73,16 +73,11 @@
 }
 
 .header__button {
-    background-color: none;
+    background: none;
     border: var(--orange) 2px solid;
     width: 154px;
     height: 60px;
     font-size: 15px;
-}
-
-.header__button:hover {
-    background-color: var(--orange);
-    transition: all 0.3s ease-out;
 }
 
 @media screen and (max-width: 993px) {

@@ -55,6 +55,13 @@ textarea {
     font-size: 15px;
 }
 
+button:hover {
+    background-color: var(--white);
+    color: var(--orange);
+    transition: all 0.3s ease-out;
+    border: 2px var(--orange) solid;
+}
+
 .huge__title {
     font-size: 200px;
     color: var(--gray);
@@ -84,5 +91,7 @@ textarea {
     height: 128px;
     border: 1px solid #EEEEEE;
 }
+
+
 
 
