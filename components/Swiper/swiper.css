@@ -1,5 +1,4 @@
-.swiper-block {
-    width: 100%;
+.swiper__block {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -7,4 +6,15 @@
 
 .first__slide {
     margin-right: 2000px;
+}
+
+.swiper__wrapper {
+    display: none;
+}
+
+@media screen and (max-width: 1200px){
+    .swiper__wrapper {
+        display: flex;
+        margin-top: 50px;
+    }
 }

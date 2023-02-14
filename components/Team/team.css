@@ -77,13 +77,11 @@
 
 @media screen and (max-width: 1200px) {
     .team__members {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        display: none;
     }
 
     .team__title {
+        display: none;
         width: 350px;
         text-align: center;
     }
