@@ -6,9 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="50712c54-41da-4a8c-afdb-de8a1b92f0bf" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/About/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/About/about.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Swiper/swiper.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/Swiper/swiper.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Swiper/swiper.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Swiper/swiper.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Team/team.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/Team/team.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Works/works.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/Works/works.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +67,7 @@
       <workItem from="1676369826589" duration="302000" />
       <workItem from="1676371023746" duration="3707000" />
       <workItem from="1676374804641" duration="593000" />
-      <workItem from="1676375442293" duration="2791000" />
+      <workItem from="1676375442293" duration="4276000" />
     </task>
     <servers />
   </component>

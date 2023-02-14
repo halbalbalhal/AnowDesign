@@ -2,19 +2,37 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.first__slide {
-    margin-right: 2000px;
+    max-width: 1400px;
 }
 
 .swiper__wrapper {
     display: none;
+    margin-top: 80px;
+}
+
+.swiper__title {
+    text-align: center;
+    margin-top: 80px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
 @media screen and (max-width: 1200px){
     .swiper__wrapper {
         display: flex;
         margin-top: 50px;
+    }
+
+    .team__button {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+    .team__members-block {
+        width: 600px;
+        height: 600px;
     }
 }
