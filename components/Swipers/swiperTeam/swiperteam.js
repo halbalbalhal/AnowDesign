@@ -49,9 +49,9 @@ class Swiper {
               </swiper-slide>              
             </swiper-container>
         `
-        ROOT_SWIPER.innerHTML = html
+        ROOT_SWIPERTEAM.innerHTML = html
     }
 
 }
 
-const swiper = new Swiper()
+const swiperteam = new Swiper()

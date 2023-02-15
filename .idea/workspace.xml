@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50712c54-41da-4a8c-afdb-de8a1b92f0bf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/images/startover.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/startover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Swipers/swiperteam.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Swipers/swiperteam.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constants/root.js" beforeDir="false" afterPath="$PROJECT_DIR$/constants/root.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +74,8 @@
       <workItem from="1676397827254" duration="3380000" />
       <workItem from="1676447806588" duration="3418000" />
       <workItem from="1676470474943" duration="2114000" />
-      <workItem from="1676472686176" duration="654000" />
+      <workItem from="1676472686176" duration="684000" />
+      <workItem from="1676473588014" duration="173000" />
     </task>
     <servers />
   </component>

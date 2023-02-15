@@ -13,7 +13,7 @@ const render = () => {
     news.render()
     registration.render()
     footer.render()
-    swiper.render()
+    swiperteam.render()
 }
 
 render()
