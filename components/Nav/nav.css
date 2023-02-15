@@ -44,7 +44,7 @@
 
 .nav__burger {
     width: 30px;
-    height: 30px;
+    height: 20px;
     display: none;
     flex-direction: column;
     justify-content: space-around;
