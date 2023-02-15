@@ -22,6 +22,7 @@ class Burger {
         const html = `
             <div class="burger__menu">
                 <div class="burger__container">
+                    <img src="images/cross.png" onclick="burger.close()" class="burger__close-button">
                     <span class="nav__title burger__title">MENU</span>
                     <a class="burger__text" href="#">demos</a>
                     <a class="burger__text" href="#">about us</a>
@@ -30,7 +31,9 @@ class Burger {
                     <a class="burger__text" href="#">news</a>
                     <a class="burger__text" href="#">contact</a>
                     <a class="burger__text" href="#">other pages</a> 
-                    <button class="button burger__button" onclick="burger.close()">CLOSE</button> 
+                </div>
+                <div class="burger__active">
+
                 </div>
             </div>
         `

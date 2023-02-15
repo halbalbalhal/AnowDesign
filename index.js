@@ -9,7 +9,7 @@ const render = () => {
     portfolio.render()
     skills.render()
     team.render()
-    testimonials.render()
+    swipernews.render()
     news.render()
     registration.render()
     footer.render()

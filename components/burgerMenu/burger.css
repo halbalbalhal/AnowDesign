@@ -4,37 +4,43 @@
     position: fixed;
     top: 0;
     left: 0;
-    background-image: url("../../images/IMAGE.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    z-index: 2;
+    display: flex;
 }
 
 .burger__container {
-    width: 100%;
+    width: 50%;
     height: 100%;
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: var(--white);
+    border-right: 3px solid var(--orange);
 }
 
 .burger__text {
     letter-spacing: 0.2px;
     text-transform: lowercase;
-    font-size: 30px;
-    margin-top: 20px;
-    color: white;
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: left;
 }
 
 .burger__title {
     color: white;
 }
 
-.burger__button {
-    margin-top: 40px;
+.burger__close-button {
+    position: absolute;
+    top: 4%;
+    right: 5%;
 }
 
-/*dsadas*/
+.burger__active {
+    width: 50%;
+    height: 100vh;
+    background-color: rgba(255,255,255,.5);
+}
 
 

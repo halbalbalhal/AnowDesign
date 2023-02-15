@@ -2,21 +2,23 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 1400px;
+    width: 100%;
 }
 
 .swiper__wrapper {
     display: none;
     margin-top: 80px;
+
 }
 
 .swiper__title {
     text-align: center;
     margin-top: 80px;
-    display: flex;
+    display: none;
     width: 100%;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 @media screen and (max-width: 1200px){
@@ -28,6 +30,14 @@
     .team__button {
         margin-top: 10px;
     }
+
+    .swiper__title {
+        display: flex;
+    }
+}
+
+.scroll__text {
+    color: var(--orange);
 }
 
 @media screen and (min-width: 600px) and (max-width: 1200px) {

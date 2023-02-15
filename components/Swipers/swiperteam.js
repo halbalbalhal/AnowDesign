@@ -1,9 +1,10 @@
 class Swiper {
     render() {
         const html = `
-               <div class="swiper__title title">
+            <div class="swiper__title title">
                    <span class="title">Meet Our Awesome Team</span>
-               </div>
+                   <span class="text scroll__text"><- Swipe zone -></span>
+            </div>
             <swiper-container class="swiper__wrapper">
               <swiper-slide class="swiper__block">
                         <div class="team__members-block">

@@ -32,6 +32,7 @@
 
 .news__link {
     color: var(--orange);
+    cursor: pointer;
 }
 
 .news__title {
@@ -40,18 +41,30 @@
     max-width: 350px;
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1300px) {
+    .news {
+        width: 300px;
+        align-items: center;
+        justify-content: center;
+        display: none;
+    }
+
     .news__wrapper {
         display: flex;
         flex-direction: column;
-        width: 400px;
-        max-width: 400px;
+        align-items: center;
+        justify-content: center;
     }
     .news__link {
-        margin-left: 20px;
+        margin-left: 15px;
+        width: 200px;
     }
     .news__title {
         margin-left: 15px;
+    }
+
+    .news img {
+        width: 300px;
     }
 
 }
