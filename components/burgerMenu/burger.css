@@ -17,6 +17,7 @@
     align-items: center;
     background-color: var(--white);
     border-right: 3px solid var(--orange);
+    animation: burgerInfoAppear 0.3s ease;
 }
 
 .burger__text {
@@ -41,6 +42,35 @@
     width: 50%;
     height: 100vh;
     background-color: rgba(255,255,255,.5);
+    animation: burgerBlurAppear 0.3s ease;
+    position: relative;
 }
+
+/*animation of left burger block*/
+@keyframes burgerInfoAppear {
+    0% {
+        left: -200px;
+        top: 0;
+    }
+
+    100% {
+        left:0;
+        top: 0;
+    }
+
+}
+
+@keyframes burgerBlurAppear {
+    0% {
+        right: -200px;
+        top: 0;
+    }
+    100% {
+        right: 0;
+        top: 0;
+    }
+
+}
+
 
 

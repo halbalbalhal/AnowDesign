@@ -1,18 +1,18 @@
 class Burger {
     close() {
         ROOT_BURGER.innerHTML = ''
-        const a = document.querySelector('.nav__burger')
+        const burgerMenu = document.querySelector('.nav__burger')
         const nav = document.querySelector('.nav')
-        a.style.display = 'flex'
+        burgerMenu.style.display = 'flex'
         nav.style.display = 'flex'
         window.addEventListener("resize", function() {
             if (window.matchMedia("(min-width: 1000px)").matches) {
-                a.style.display = 'none'
+                burgerMenu.style.display = 'none'
             }
         })
         window.addEventListener("resize", function() {
             if (window.matchMedia("(max-width: 1299px)").matches) {
-                a.style.display = 'flex'
+                burgerMenu.style.display = 'flex'
             }
         })
 
