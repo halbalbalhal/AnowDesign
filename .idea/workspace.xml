@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50712c54-41da-4a8c-afdb-de8a1b92f0bf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/css/colors.css" afterDir="false" />
+    <list default="true" id="50712c54-41da-4a8c-afdb-de8a1b92f0bf" name="Changes" comment="new mobile menu animation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/About/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/About/about.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Benefits/benefits.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Benefits/benefits.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Registration/registration.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Registration/registration.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Swipers/swiperTeam/swiperteam.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Swipers/swiperTeam/swiperteam.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Works/works.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Works/works.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/burgerMenu/burger.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/burgerMenu/burger.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/burgerMenu/burger.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/burgerMenu/burger.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,8 +81,16 @@
       <workItem from="1676470474943" duration="2114000" />
       <workItem from="1676472686176" duration="684000" />
       <workItem from="1676473588014" duration="288000" />
-      <workItem from="1676533502219" duration="872000" />
+      <workItem from="1676533502219" duration="4792000" />
     </task>
+    <task id="LOCAL-00001" summary="new mobile menu animation">
+      <created>1676534456843</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676534456843</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,5 +106,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new mobile menu animation" />
+    <option name="LAST_COMMIT_MESSAGE" value="new mobile menu animation" />
   </component>
 </project>

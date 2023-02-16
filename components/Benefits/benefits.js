@@ -1,7 +1,7 @@
 class Benefits {
     render() {
         const html = `
-            <section class="benefits">
+            <section class="benefits" id="benefits">
                 <div class="benefits__wrapper">
                     <div class="benefits__block">
                         <img src="images/bulb.svg" alt="" class="benefits__img">

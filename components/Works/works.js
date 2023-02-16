@@ -1,7 +1,7 @@
 class Works {
     render() {
         const html = `
-            <section class="works">
+            <section class="works" id="works">     
                 <div class="works__wrapper">
                     <div class="works__block">
                         <span class="title works__text">Take a look around our portfolio</span>

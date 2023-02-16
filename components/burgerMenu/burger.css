@@ -46,18 +46,16 @@
     position: relative;
 }
 
-/*animation of left burger block*/
+/*animation of burger blocks appearing*/
 @keyframes burgerInfoAppear {
     0% {
         left: -200px;
         top: 0;
     }
-
     100% {
         left:0;
         top: 0;
     }
-
 }
 
 @keyframes burgerBlurAppear {
@@ -69,8 +67,32 @@
         right: 0;
         top: 0;
     }
-
 }
+
+/**/
+
+@keyframes burgerInfoClose {
+    0% {
+        left: 0;
+        top: 0;
+    }
+    100% {
+        left: -200px;
+        top: 0;
+    }
+}
+
+@keyframes burgerBlurClose {
+    0% {
+        right: 0;
+        top: 0;
+    }
+    100% {
+        right: -200px;
+        top: 0;
+    }
+}
+
 
 
 

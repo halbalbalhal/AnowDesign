@@ -2,7 +2,7 @@ class Registration {
     render() {
         const html = `
             <!-- registration -->
-            <section class="registration">
+            <section class="registration" id="contacts">
                 <div class="registration__wrapper">
                     <div class="registration__info">
                         <div class="regsitration__info-address">

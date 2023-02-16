@@ -4,7 +4,7 @@ class About {
             <!-- about -->
             <section class="about">
                 <div class="about__info">
-                    <span class="huge__title">about</span>
+                    <span class="huge__title" id="about">about</span>
                     <span class="title about__title">Ultimate experiences</span>
                     <span class="title about__title">with story, emotion and purpose</span>
                     <img src="images/interior.svg" alt="" class="about__info-img">
