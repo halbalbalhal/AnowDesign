@@ -22,8 +22,8 @@
 
 .header__picture-halfcircle {
     position: absolute;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
 }
 
 .header__picture-cross {
@@ -36,8 +36,8 @@
 
 .header__picture-bottomcircle {
     position: absolute;
-    bottom: 0px;
-    right: 0px;
+    bottom: 0;
+    right: 0;
 }
 
 .header__title {

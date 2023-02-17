@@ -11,25 +11,25 @@ class Footer {
 
                     <div class="footer__block">
                         <span class="little__title footer__title">Home</span>
-                        <span class="text footer__link">Home Portfolio</span>
-                        <span class="text footer__link">Home Agency</span>
-                        <span class="text footer__link">Home Architecture</span>
+                        <a href="#" class="text footer__link">Home Portfolio</a>
+                        <a href="#" class="text footer__link">Home Agency</a>
+                        <a href="#" class="text footer__link">Home Architecture</a>
                     </div>
 
                     <div class="footer__block">
                         <span class="little__title footer__title">Portfolio</span>
-                        <span class="text footer__link">Masonry Portfolio</span>
-                        <span class="text footer__link">Grid Portfolio</span>
-                        <span class="text footer__link">Metro Portfolio</span>
-                        <span class="text footer__link">Service Details</span>
+                        <a href="#" class="text footer__link">Masonry Portfolio</a>
+                        <a href="#" class="text footer__link">Grid Portfolio</a>
+                        <a href="#" class="text footer__link">Metro Portfolio</a>
+                        <a href="#" class="text footer__link">Service Details</a>
                     </div>
 
                     <div class="footer__block">
                         <span class="little__title footer__title">Blog</span>
-                        <span class="text footer__link">Blog Style 1</span>
-                        <span class="text footer__link">Blog Style 2</span>
-                        <span class="text footer__link">Blog Style 3</span>
-                        <span class="text footer__link">Licensing</span>
+                        <a href="#" class="text footer__link">Blog Style 1</a>
+                        <a href="#" class="text footer__link">Blog Style 2</a>
+                        <a href="#" class="text footer__link">Blog Style 3</a>
+                        <a href="#" class="text footer__link">Licensing</a>
                     </div>
                 </div>
                 <p class="text footer__afterwords">© Anow. All Rights Reserved 2022 — Designed by 128.digital. Powered by Webflow</p>

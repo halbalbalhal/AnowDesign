@@ -2,9 +2,9 @@ class Nav {
 
     showBurger() {
         burger.render()
-        const a = document.querySelector('.nav__burger')
+        const burgerMenu = document.querySelector('.nav__burger')
         const nav = document.querySelector('.nav')
-        a.style.display = 'none'
+        burgerMenu.style.display = 'none'
         nav.style.display = 'none'
     }
 
