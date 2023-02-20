@@ -1,0 +1,30 @@
+.swiper {
+    width: 100%;
+    height: 700px;
+}
+
+.swiper-slide {
+    text-align: left;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (min-width: 700px) and (max-width: 1200px) {
+    .news__block img{
+        width: 500px;
+    }
+
+    .news__block-filters  {
+        width: 550px;
+    }
+}

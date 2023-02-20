@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50712c54-41da-4a8c-afdb-de8a1b92f0bf" name="Changes" comment="changed file names, images in benefits block" />
+    <list default="true" id="50712c54-41da-4a8c-afdb-de8a1b92f0bf" name="Changes" comment="changed file names, images in benefits block">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Portfolio/portfolio.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Portfolio/portfolio.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,7 +32,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/pet/AnowDesign/images",
+    "last_opened_file_path": "D:/pet/react",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -77,6 +80,9 @@
       <workItem from="1676473588014" duration="288000" />
       <workItem from="1676533502219" duration="4993000" />
       <workItem from="1676625597697" duration="4166000" />
+      <workItem from="1676717276911" duration="462000" />
+      <workItem from="1676719181955" duration="13000" />
+      <workItem from="1676799259919" duration="465000" />
     </task>
     <task id="LOCAL-00001" summary="new mobile menu animation">
       <created>1676534456843</created>
