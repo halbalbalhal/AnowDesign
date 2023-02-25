@@ -14,13 +14,13 @@ class Nav {
             <div class="nav__wrapper">
                 <span class="nav__title">ANOW</span>
                 <div class="nav__menu">
-                    <a class="nav__link" href="#">demos</a>
-                    <a class="nav__link" href="#">about us</a>
-                    <a class="nav__link" href="#">portfolio</a>
-                    <a class="nav__link" href="#">team</a>
-                    <a class="nav__link" href="#">news</a>
-                    <a class="nav__link" href="#">contact</a>
-                    <a class="nav__link" href="#">other pages</a>                    
+                    <a class="nav__link" href="#home">home</a>
+                    <a class="nav__link" href="#about">about us</a>
+                    <a class="nav__link" href="#portfolio">portfolio</a>
+                    <a class="nav__link" href="#team">team</a>
+                    <a class="nav__link" href="#news">news</a>
+                    <a class="nav__link" href="#registration">contact</a>
+                    <a class="nav__link" href="#footer">more info</a>                    
                 </div>
 
                 <div class="nav__burger" onclick="nav.showBurger()">

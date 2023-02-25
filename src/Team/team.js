@@ -3,7 +3,7 @@ class Team {
         const html = `
             <!-- team -->
             <section class="team">
-                <div class="team__wrapper">                    
+                <div class="team__wrapper" id="team">                    
                     <span class="title team__title">Meet Our Awesome Team</span>
                     <div class="team__members ">
                         <div class="team__members-block ">

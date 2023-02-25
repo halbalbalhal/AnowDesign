@@ -2,7 +2,7 @@ class About {
     render() {
         const html = `
             <!-- about -->
-            <section class="about">
+            <section class="about" id="about">
                 <div class="about__info">
                     <span class="huge__title" id="about">about</span>
                     <span class="title about__title">Ultimate experiences</span>

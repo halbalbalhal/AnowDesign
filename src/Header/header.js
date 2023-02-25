@@ -3,7 +3,7 @@ class Header {
     render() {
         const html = `
             <!-- header -->
-            <header class="header">
+            <header class="header" id="home">
                 <img src="images/Circle.svg" class="header__picture-circle">
                 <img src="images/halfcircle.svg" alt="" class="header__picture-halfcircle">
                 <h1 class="header__title">DESIGN IS THINKING MADE VISUAL</h1>

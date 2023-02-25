@@ -21,10 +21,10 @@ class Burger {
             <section class="burger__menu">
                 <div class="burger__container" id="burger__container">
                     <img src="images/cross.png" onclick="burger.close()" class="burger__close-button">
-                    <a class="burger__text" href="#benefits" onclick="burger.close()">demos</a>
+                    <a class="burger__text" href="#home" onclick="burger.close()">Home</a>
                     <a class="burger__text" href="#works" onclick="burger.close()">portfolio</a>
-                    <a class="burger__text" href="#team" onclick="burger.close()">team</a>
-                    <a class="burger__text" href="#news" onclick="burger.close()">news</a>
+                    <a class="burger__text" href="#team_swiper" onclick="burger.close()">team</a>
+                    <a class="burger__text" href="#news_swiper" onclick="burger.close()">news</a>
                     <a class="burger__text" href="#contacts" onclick="burger.close()">contact</a>
                 </div>
                 <div class="burger__active">

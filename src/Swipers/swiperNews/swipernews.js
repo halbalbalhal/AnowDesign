@@ -1,7 +1,7 @@
 class swiperNews {
     render() {
         const html = `
-            <div class="swiper__title title">
+            <div class="swiper__title title" id="news_swiper">
                 <span class="title">Our Interactive News</span>
                 <span class="text scroll__text"><- Swipe zone -></span>
             </div>

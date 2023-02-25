@@ -1,7 +1,7 @@
 class Swiper {
     render() {
         const html = `
-            <section class="swiper__title title" id="team">
+            <section class="swiper__title title" id="team_swiper">
                    <span class="title">Meet Our Awesome Team</span>
                    <span class="text scroll__text"><- Swipe zone -></span>
             </section>

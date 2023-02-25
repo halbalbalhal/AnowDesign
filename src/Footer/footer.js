@@ -2,7 +2,7 @@ class Footer {
     render() {
         const html = `
             <!-- footer -->
-            <footer class="footer">
+            <footer class="footer" id="footer">
                 <div class="footer__main">
                     <div class="footer__main-number">
                         <span class="title footer__title">anow</span>

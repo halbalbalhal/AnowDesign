@@ -32,6 +32,10 @@
     color: white;
 }
 
+.burger__close {
+    animation: burgerInfoClose 0.3 ease;
+}
+
 .burger__close-button {
     position: absolute;
     top: 4%;
