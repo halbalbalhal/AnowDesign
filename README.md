@@ -1,4 +1,4 @@
-# AnowDesign.github.io
+# AnowDesign.github.io or bit.ly/AnowDesign
 
 Site for practising my knowledge in JAVASCRIPT/HTML/CSS
 
