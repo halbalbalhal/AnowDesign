@@ -8,6 +8,8 @@ class Nav {
         nav.style.display = 'none'
     }
 
+    
+
     render() {
         const html = `
             <nav class="nav">
